@@ -1,5 +1,0 @@
-lines = $<.readlines
-lines.shift
-while !lines.empty?
-
-end
