@@ -1,0 +1,12 @@
+<%= form_for @user do |f| %>
+  <fieldset>
+    <legend>Sign up</legend>
+    <dl>
+      <dt><%= f.label :email %></dt>
+      <dd><%= f.email_field :email %></dd>
+      <dt><%= f.label :password %></dt>
+      <dd><%= f.password_field :password %></dd>
+      <%= f.submit "Sign in" %>
+    </dl>
+  </fieldset>
+<% end %>

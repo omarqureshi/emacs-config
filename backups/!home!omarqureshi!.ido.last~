@@ -1,0 +1,120 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/omarqureshi/Source/debian-puppet-rails/modules/" . "emacs/")
+ ("/home/omarqureshi/Source/debian-puppet-rails/" . "manifests/")
+ ("/home/omarqureshi/Source/employly/test/" . "functional/")
+ ("/home/omarqureshi/Source/employly/app/assets/" . "stylesheets/")
+ ("/home/omarqureshi/Source/employly/app/views/" . "dashboard/")
+ ("/home/omarqureshi/Source/employly/app/" . "controllers/")
+ ("/home/omarqureshi/Source/employly/db/" . "migrate/")
+ ("/home/omarqureshi/Source/amendapprove/db/" . "migrate/")
+ ("/home/omarqureshi/Source/" . "employly/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/omarqureshi/Source/employly/db/migrate/"
+ "/home/omarqureshi/Source/employly/config/"
+ "/home/omarqureshi/Source/employly/"
+ "/home/omarqureshi/Source/employly/test/functional/"
+ "/home/omarqureshi/Source/employly/app/controllers/"
+ "/home/omarqureshi/Source/tesla/config/"
+ "/home/omarqureshi/GoogleCodeJam/1B/SafetyInNumbers/"
+ "/home/omarqureshi/GoogleCodeJam/1B/EqualSums/"
+ "/home/omarqureshi/Source/employly/app/views/session/"
+ "/home/omarqureshi/Source/employly/app/views/dashboard/"
+ "/home/omarqureshi/Source/employly/app/views/users/"
+ "/home/omarqureshi/Source/employly/test/"
+ "/home/omarqureshi/Source/employly/app/assets/stylesheets/"
+ "/home/omarqureshi/Source/employly/app/views/layouts/"
+ "/home/omarqureshi/Source/amendapprove/db/migrate/"
+ "/home/omarqureshi/Source/employly/app/models/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "20120503210302_create_users.rb"
+ "routes.rb"
+ "Gemfile"
+ "users_controller_test.rb"
+ "users_controller.rb"
+ "session_controller.rb"
+ "sphinx.yml"
+ "input"
+ "new.html.erb"
+ "_logged_out.html.erb"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/omarqureshi/Source/debian-puppet-rails/modules/apt/" (20422 26376) "./" "../")
+
+ ("/home/omarqureshi/Source/debian-puppet-rails/modules/emacs/" (20422 40449) "manifests/" "./" "../")
+
+ ("/home/omarqureshi/Source/debian-puppet-rails/modules/" (20422 40442) "memcached/" "emacs/" "jenkins/" "iptables/" "dnsmasq/" "nginx/" "augeas/" "apt/" "backports/" "./" "rvm/" "../" "postgresql/" "mysql/" "god/" "debian-pre/" "common/")
+
+ ("/home/omarqureshi/Source/debian-puppet-rails/" (20422 26376) "puppet.conf" "autosign.conf" "manifests/" "./" "../" ".git/" ".gitmodules" ".gitignore" "modules/")
+
+ ("/home/omarqureshi/Source/debian-puppet-rails/manifests/" (20422 41451) "modules.pp" "utils.pp" "nodes.pp" "./" "../" "site.pp")
+
+ ("/home/omarqureshi/Source/employly/db/migrate/" (20389 1572) "20120503210302_create_users.rb" "./" "../")
+
+ ("/home/omarqureshi/Source/employly/app/controllers/" (20409 21583) "application_controller.rb" "dashboard_controller.rb" "./" "../" "users_controller.rb" "session_controller.rb")
+
+ ("/home/omarqureshi/Source/employly/test/functional/" (20409 21153) "user_mailer_test.rb" "users_controller_test.rb" "dashboard_controller_test.rb" "./" ".gitkeep" "../" "session_controller_test.rb")
+
+ ("/home/omarqureshi/Source/employly/app/models/" (20386 62477) "user.rb" "./" ".gitkeep" "../")
+
+ ("/home/omarqureshi/Source/tesla/config/" (20395 52265) "locales/" "database.yml" "database.yml~" "rackspace.yml" "config.yml" "deploy/" "environment.rb" "routes.rb" "schedule.rb" "environments/" "amazon_s3.yml" "nginx/" "sphinx.yml" "./" "../" "initializers/" "deploy.rb" "god/" "preinitializer.rb" "newrelic.yml" "paid.newrelic.yml" "ses.pem" "boot.rb" "unicorn.rb")
+
+ ("/home/omarqureshi/Source/tesla/config/god/" (20383 61443) "production/" "staging/" "./" "configs/" "../" "experimental/")
+
+ ("/home/omarqureshi/Source/tesla/config/god/configs/" (20383 61443) "dj.god" "ideas_watch.god" "system_mover.god" "nginx.god" "mysql.god" "unicorn.god" "./" "../" "contacts.rb")
+
+ ("/home/omarqureshi/GoogleCodeJam/1B/SafetyInNumbers/" (20389 23600) "./" "safety.rb" "../")
+
+ ("/home/omarqureshi/GoogleCodeJam/1B/EqualSums/" (20389 21168) "./" "../" "equal_sums.rb")
+
+ ("/home/omarqureshi/Source/employly/config/" (20389 17717) "locales/" "database.yml" "environment.rb" "#application.rb#" "routes.rb" "application.rb" "environments/" "./" "../" "initializers/" "boot.rb")
+
+ ("/home/omarqureshi/Source/employly/app/views/dashboard/" (20389 17331) "_logged_out.html.erb" "./" "../" "index.html.erb")
+
+ ("/home/omarqureshi/Source/employly/app/views/session/" (20389 17266) "_dashboard_form.html.erb" "./" "../")
+
+ ("/home/omarqureshi/Source/employly/app/views/users/" (20389 17239) "new.html.erb" "./" "../")
+
+ ("/home/omarqureshi/Source/employly/test/" (20389 1711) "./" "../" "test_helper.rb" "factories.rb" "integration/" "functional/" "performance/" "fixtures/" "unit/")
+
+ ("/home/omarqureshi/Source/employly/test/unit/" (20389 1668) "helpers/" "user_test.rb" "./" ".gitkeep" "../")
+
+ ("/home/omarqureshi/Source/employly/db/" (20386 64346) "migrate/" "schema.rb" "./" "seeds.rb" "development.sqlite3" "../" "structure.sql")
+
+ ("/home/omarqureshi/Source/employly/app/views/" (20388 16240) "session/" "dashboard/" "users/" "./" "../" "user_mailer/" "layouts/")
+
+ ("/home/omarqureshi/Source/employly/app/views/layouts/" (20388 16257) "application.html.erb" "./" "../")
+
+ ("/home/omarqureshi/Source/employly/app/assets/stylesheets/" (20388 15838) "reset.css" "layout.css" "dashboard.css.scss" "./" "../" "application.css" "typography.css")
+
+ ("/home/omarqureshi/Source/employly/app/assets/" (20386 58839) "javascripts/" "./" "../" "images/" "stylesheets/")
+
+ ("/home/omarqureshi/Source/employly/" (20386 63800) "tmp/" "vendor/" "README.rdoc" "log/" "config.ru" "Gemfile" "db/" "#Gemfile#" "public/" "app/" "config/" "./" "lib/" "../" "Gemfile.lock" "script/" "doc/" "test/" ".gitignore" "Rakefile")
+
+ ("/home/omarqureshi/Source/amendapprove/db/migrate/" (20381 53635) "20120315230616_create_users.rb" "20120414234559_create_clients.rb" "./" "../" "20120414234722_create_clients_users.rb")
+
+ ("/home/omarqureshi/Source/amendapprove/db/" (20383 55847) "migrate/" "./" "seeds.rb" "../" "structure.sql")
+
+ ("/home/omarqureshi/Source/employly/app/" (20386 58839) "views/" "mailers/" "models/" "helpers/" "assets/" "./" "../" "controllers/")
+
+ ("/home/omarqureshi/Source/" (20386 58839) "amendapprove/" "riakms/" "auto_validate_presentation/" "tesla/" "./" "../" "auto_validate/" "employly/")
+
+ ("/home/omarqureshi/Source/amendapprove/" (20383 55834) "tmp/" "vendor/" "README.rdoc" "log/" "config.ru" "Gemfile" "db/" "public/" "app/" "config/" "./" "lib/" "../" "Gemfile.lock" "script/" "doc/" ".rvmrc" "test/" ".git/" ".gitignore" "Rakefile")
+
+ ("/home/omarqureshi/Source/amendapprove/app/" (20381 53635) "views/" "mailers/" "models/" "helpers/" "assets/" "./" "../" "controllers/")
+
+ ("/home/omarqureshi/Source/amendapprove/app/models/" (20386 62015) "clients_user.rb" "user.rb" "./" ".gitkeep" "../" "client.rb")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

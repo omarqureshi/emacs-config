@@ -1,0 +1,59 @@
+<div id="employees">
+  <h2>Looking for jobs?</h2>
+  
+  <p>
+    Find local jobs by approaching companies directly, bypassing the
+    stupidity of IT recruiters.
+  </p>
+  
+  <ul class="proceed">
+    <li class="sign-up">
+      <%= render :partial => "/session/dashboard_form" %>
+    </li>
+    <li class="about">Tell us where you're from</li>
+    <li class="details">Tell us what you're good at</li>
+    <li class="result">Get awesome local jobs</li>
+  </ul>
+  
+  <p>
+    Additionally, make yourself more appealing to prospective
+    employers by showcasing design and programming work that you have
+    done by highlighting specific cases where your talents have
+    shined.
+  </p>
+  <p>
+    Get written feedback from your peers and show to employees
+    although you may be a talented programmer. You're also a team
+    player.
+  </p>
+
+</div>
+
+<div id="employers">
+  <h2>Looking for developers?</h2>
+
+  <p>
+    Find good local candidates without having to resort to clueless IT
+    recruiters and save both time and money in doing so.
+  </p>
+  
+  <ul>
+    <li class="sign-up">
+      <%= render :partial => "/session/dashboard_form" %>
+    </li>
+    <li class="about">Tell us about your company</li>
+    <li class="details">Tell us what your company is looking for</li>
+    <li class="result">Get great candidates</li>
+  </ul>
+
+  <p>
+    Set up a wagon wheel of prospective employees based around the
+    location that you want to hire and get instant feedback from real
+    people on real jobs.
+  </p>
+  <p>
+    Track the progress of any interviews that you've made and build a
+    history of excellent interviewees.
+  </p>
+
+</div>

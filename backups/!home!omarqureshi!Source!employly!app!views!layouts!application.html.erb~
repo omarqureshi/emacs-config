@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Employ.ly</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body class="<%= controller.controller_name %>">
+  <div class="wrapper">
+    <div class="inner-wrapper">
+      <div class="container">
+        <h1>Employ.ly</h1>
+        <nav>
+          <%= link_to "Already a member? Sign in", new_session_path %>
+          <%= link_to "Sign up", new_user_path %>
+        </nav>
+        <%= yield %>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

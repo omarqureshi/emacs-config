@@ -1,0 +1,28 @@
+
+
+lines = $<.readlines
+lines.shift
+counter = 1
+while !lines.empty?
+  data = lines.shift
+  data = data.split(" ").map(&:to_i)[1..-1]
+  puts data.inspect
+  combinations = []
+  h = {}
+  500.downto(1) { |n| combinations << data.combination(n) }
+  result = "impossible"
+  combinations.each do |x|
+    x.each do |y|
+      sum = y.inject(:+)
+      if h[sum]
+        result = h[sum].join(" ") + "\n" + y.join(" ")
+        break
+      else
+        h[sum] = y
+        puts h.inspect
+      end
+    end
+  end
+  puts "Case ##{counter}:\n#{result}"
+  counter += 1
+end
