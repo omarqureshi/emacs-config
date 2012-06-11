@@ -81,7 +81,7 @@
   "The library `textmade-goto-symbol' and `textmate-goto-file' should use for
 completing filenames and symbols (`ido' by default)")
 
-(defvar textmate-find-files-command "find \"%s\" -type f | egrep -iv '.(jpg|gif|jpeg|png|bmp|pdf)'"
+(defvar textmate-find-files-command "find \"%s\" -type f | egrep -iv '\.(tar|jpe|jpg|gif|jpeg|png|bmp|pdf)'"
   "The command `textmate-project-files' uses to find files. %s will be replaced
 by the project root.")
 
