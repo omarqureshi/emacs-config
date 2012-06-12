@@ -52,6 +52,11 @@
 (textmate-mode)
 (require 'ido-hacks)
 
+(add-to-list 'load-path
+              "~/.emacs.d/plugins/yasnippet")
+(require 'yasnippet)
+(yas/global-mode 1)
+
 (setq ido-ignore-directories '("\\`public/system"))
 (setq ido-ignore-extensions t)
 
