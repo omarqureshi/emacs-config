@@ -57,6 +57,9 @@
 ;(require 'yasnippet)
 ;(yas/global-mode 1)
 
+(add-to-list 'load-path "~/.emacs.d/vendor/coffee-mode")
+(require 'coffee-mode)
+
 (setq ido-ignore-directories '("\\`public/system"))
 (setq ido-ignore-extensions t)
 
