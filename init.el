@@ -28,11 +28,6 @@
 (menu-bar-mode 1)
 ;; have emacs scroll line-by-line
 (setq scroll-step 1)
-(require 'color-theme-tomorrow)
-(eval-after-load "color-theme"
-  '(progn
-     (color-theme-initialize)
-     (color-theme-tomorrow-night-eighties)))
 
 (defun my-zoom (n)
 "Increase or decrease font size based upon argument"
@@ -60,9 +55,17 @@
 (add-to-list 'load-path "~/.emacs.d/vendor/coffee-mode")
 (require 'coffee-mode)
 
+(add-to-list 'load-path "~/.emacs.d/vendor/color-theme")
+(require 'color-theme)
+
 (setq ido-ignore-directories '("\\`public/system"))
 (setq ido-ignore-extensions t)
 
+(require 'color-theme-tomorrow)
+(eval-after-load "color-theme"
+  '(progn
+     (color-theme-initialize)
+     (color-theme-tomorrow-night-eighties)))
 
 (global-linum-mode)
 

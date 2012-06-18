@@ -3,3 +3,4 @@ backups/*
 places
 .smex-items
 session.*
+.DS_Store
