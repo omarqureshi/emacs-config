@@ -33,6 +33,14 @@
 ;; have emacs scroll line-by-line
 (setq scroll-step 1)
 
+;; disable the word wrapping done by html-mode
+;; we should be smart enough to do this ourselves!
+
+(defun no-wrap-html-mode-hook ()
+  (auto-fill-mode -1))
+
+(add-hook 'html-mode-hook 'no-wrap-html-mode-hook)
+
 (defun kill-other-buffers ()
     "Kill all other buffers."
     (interactive)
