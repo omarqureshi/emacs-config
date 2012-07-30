@@ -39,6 +39,9 @@
 (global-set-key [C-kp-subtract]  '(lambda nil (interactive) (my-zoom -1)))
 (message "All done!")
 
+(fset 'insertPound "#")
+(global-set-key (kbd "M-3") 'insertPound)
+
 (add-to-list 'load-path "~/.emacs.d/vendor")
 (require 'puppet-mode)
 (setq auto-mode-alist  (cons '(".pp$" . puppet-mode) auto-mode-alist))
@@ -60,6 +63,9 @@
 
 (setq ido-ignore-directories '("\\`public/system"))
 (setq ido-ignore-extensions t)
+
+(add-to-list 'load-path "~/.emacs.d/vendor/haml-mode")
+(require 'haml-mode)
 
 (require 'color-theme-tomorrow)
 (eval-after-load "color-theme"
