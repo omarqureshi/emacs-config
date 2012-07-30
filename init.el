@@ -12,6 +12,10 @@
 ;    (eval-region (point) (point-max))
 ;    (kill-buffer (current-buffer))))
 
+(setq-default c-basic-offset 8
+              tab-width 8
+              indent-tabs-mode t)
+
 (add-to-list 'load-path "~/.emacs.d/rhtml")
 (add-to-list 'load-path "~/.emacs.d/tomorrow-theme")
 (require 'rhtml-mode)
@@ -28,6 +32,13 @@
 (menu-bar-mode 1)
 ;; have emacs scroll line-by-line
 (setq scroll-step 1)
+
+(defun kill-other-buffers ()
+    "Kill all other buffers."
+    (interactive)
+    (mapc 'kill-buffer 
+          (delq (current-buffer) 
+                (remove-if-not 'buffer-file-name (buffer-list)))))
 
 (defun my-zoom (n)
 "Increase or decrease font size based upon argument"
@@ -57,6 +68,9 @@
 
 (add-to-list 'load-path "~/.emacs.d/vendor/color-theme")
 (require 'color-theme)
+
+(add-to-list 'load-path "~/.emacs.d/vendor/mustache-mode.el")
+(require 'mustache-mode)
 
 (setq ido-ignore-directories '("\\`public/system"))
 (setq ido-ignore-extensions t)
