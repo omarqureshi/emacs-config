@@ -3,6 +3,8 @@
              '("marmalade" . "http://marmalade-repo.org/packages/") t)
 (package-initialize)
 
+(set-face-attribute 'default nil :height 140)
+
 ;(let ((buffer (url-retrieve-synchronously
 ;	       "http://tromey.com/elpa/package-install.el")))
 ;  (save-excursion
@@ -13,8 +15,7 @@
 ;    (kill-buffer (current-buffer))))
 
 (setq-default c-basic-offset 8
-              tab-width 8
-              indent-tabs-mode t)
+              tab-width 8)
 
 (add-to-list 'load-path "~/.emacs.d/rhtml")
 (add-to-list 'load-path "~/.emacs.d/tomorrow-theme")
